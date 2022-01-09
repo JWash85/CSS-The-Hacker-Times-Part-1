@@ -1,1 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+body{
+    width: 700px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+.date {
+    padding-left: 1em;
+    margin-bottom: -1em;
+    font-family: source Sans pro;
+}
+h1 {
+    text-align: center;
+    font-family: abril Fatface;
+    font-size: 40px;
+    margin: .25em;               
+}
+main {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+main p {
+    text-align: justify;
+    padding-left: .25em;
+    padding-right: .25em;
+    padding-bottom: .5em;
+    font-family: source Sans pro;
+    font-size: 14px;
+}
+main img {
+    width: 100%;
+}
+main h5 {
+    margin-top: -.25em;
+    font-size: 13px;
+    color: red;
+}
+main h2 {
+    font-size: 24px;
+    font-family: roboto Slab;
+    
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin-left: -1em;
+    margin-right: 2em;
+    font-size: 14px;
+    
+}
+nav li {
+    display: inline-block;
+    padding-left: .5em;
+    padding-right: .5em;
+    font-family: source Sans pro;
+}
+a:link {
+    text-decoration: none;
+    color: silver;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+section h4 {
+    text-align: left;
+    padding-left: .5em;
+    margin-top: -.25em;
+    font-size: 16px;
+    font-family: roboto Slab;
+
+}
+/*.more-articles section {
+    padding: 1em;
+    display: inline-block;
+    width: 30%;
+    text-align: justify;
+    margin: auto;
+}*/
+hr {
+    height: 1px;
+    border-width: 0;
+    color: silver;
+    background-color: silver;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+section {
+    padding-top: 1em;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+section p {
+    text-align: justify;
+    width: 85%;
+    margin: auto;
+    padding: 1em 1em 2em 1em;
+    font-family: source Sans pro;
+    font-size: 14px;
+}
+section img {
+    width: 95%;
+    margin: auto;
+    
+}
+
+
+
+
+ 
